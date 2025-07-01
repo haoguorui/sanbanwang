@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksanbanwang=self.webpackChunksanbanwang||[]).push([[7884],{7236:a=>{a.exports=JSON.parse('{"metadata":{"permalink":"/sanbanwang/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"\u73ed\u7ea7\u6700\u65b0\u52a8\u6001","blogTitle":"\u73ed\u7ea7\u535a\u5ba2"}}')}}]);
