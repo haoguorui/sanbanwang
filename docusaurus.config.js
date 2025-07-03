@@ -16,10 +16,10 @@ module.exports = {
   
   themeConfig: {
     navbar: {
-      title: '首页',
+      title: '三班网 - 首页',
       items: [
-        { to: 'docs/intro', label: '文档', position: 'left' },
-        { to: 'blog', label: '博客', position: 'left' },
+        { to: '/bkzl', label: '版块及内容', position: 'left' },
+        //{ to: 'blog', label: '博客', position: 'left' },
         {
           href: 'https://github.com/haoguorui',
           label: 'GitHub',
@@ -39,7 +39,7 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          routeBasePath: '/docs',
+          routeBasePath: '/',
           remarkPlugins: [remarkMath],
           rehypePlugins: [
             [rehypeKatex, {

@@ -1,33 +1,70 @@
-// sidebars.js
 module.exports = {
-  docs: [
+  mainSidebar: [
+    // 既是文档又是分类的混合项
     {
       type: 'category',
-      label: '基础教程',
+      label: '新闻资讯版',
+      collapsible: true,
+      collapsed: false,
+      link: {
+        type: 'doc',
+        id: 'xwzxb/index'
+      },
       items: [
-        'tutorial-basics/create-a-page',
-        'tutorial-basics/create-a-document',
-        'tutorial-basics/create-a-blog-post',
-        'tutorial-basics/markdown-features',
-        'tutorial-basics/deploy-your-site',
-        'tutorial-basics/congratulations'
-      ],
+        'xwzxb/at1',
+      ]
     },
     {
       type: 'category',
-      label: '进阶教程',
+      label: '公示板',
+      collapsible: true,
+      collapsed: false,
+      link: {
+        type: 'doc',
+        id: 'gsb/index'
+      },
       items: [
-        'tutorial-extras/manage-docs-versions',
-        'tutorial-extras/translate-your-site'
-      ],
+        
+      ]
     },
     {
       type: 'category',
-      label: '前端开发',
+      label: '学术版',
+      collapsible: true,
+      collapsed: false,
+      link: {
+        type: 'doc',
+        id: 'xsb/index'
+      },
       items: [
-        'intro',        // 默认文件
-        'react-guide'   // 新增文件
-      ],
-    }
-  ],
+        
+      ]
+    },
+    {
+      type: 'category',
+      label: '闲话版',
+      collapsible: true,
+      collapsed: false,
+      link: {
+        type: 'doc',
+        id: 'xhb/index'
+      },
+      items: [
+        
+      ]
+    },
+    {
+      type: 'category',
+      label: '活动区',
+      collapsible: true,
+      collapsed: false,
+      link: {
+        type: 'doc',
+        id: 'hdq/index'
+      },
+      items: [
+        
+      ]
+    },
+  ]
 };
