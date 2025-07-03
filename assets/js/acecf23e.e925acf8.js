@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunksanbanwang=self.webpackChunksanbanwang||[]).push([[1903],{1912:a=>{a.exports=JSON.parse('{"blogBasePath":"/sanbanwang/blog","blogTitle":"\u73ed\u7ea7\u535a\u5ba2","authorsListPath":"/sanbanwang/blog/authors"}')}}]);
