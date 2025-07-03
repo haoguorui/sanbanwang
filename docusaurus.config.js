@@ -1,21 +1,19 @@
 // @ts-check
-// 注意：整个配置文件应该只有一个导出对象
+const remarkMath = require('remark-math');
+const rehypeKatex = require('rehype-katex');
 
 module.exports = {
-  title: '三班网',  // 网站标题
-  tagline: '快速获取班级资讯', // 副标题
-  url: 'https://haoguorui.github.io', // GitHub Pages URL
-  baseUrl: '/sanbanwang/', // 注意开头和结尾的斜杠
+  title: '三班网',
+  tagline: '快速获取班级资讯',
+  url: 'https://haoguorui.github.io',
+  baseUrl: '/sanbanwang/',
   
-  // GitHub 仓库信息
-  organizationName: 'haoguorui', // GitHub用户名
-  projectName: 'sanbanwang', // GitHub仓库名
+  organizationName: 'haoguorui',
+  projectName: 'sanbanwang',
   
-  // 部署设置
-  deploymentBranch: 'gh-pages', // 部署分支
-  trailingSlash: false, // URL结尾斜杠处理
+  deploymentBranch: 'gh-pages',
+  trailingSlash: false,
   
-  // 主题配置
   themeConfig: {
     navbar: {
       title: '首页',
@@ -35,19 +33,53 @@ module.exports = {
     },
   },
   
-  // 预设配置（必须包含）
   presets: [
     [
       '@docusaurus/preset-classic',
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          routeBasePath: '/docs', // 文档基础路径
+          routeBasePath: '/docs',
+          remarkPlugins: [remarkMath],
+          rehypePlugins: [
+            [rehypeKatex, {
+              strict: false,
+              throwOnError: false,
+              macros: {
+                "\\RR": "\\mathbb{R}"
+              }
+            }]
+          ],
         },
         blog: {
           showReadingTime: true,
           blogTitle: '班级博客',
           blogDescription: '班级最新动态',
+          remarkPlugins: [remarkMath],
+          rehypePlugins: [
+            [rehypeKatex, {
+              strict: false,
+              throwOnError: false,
+              macros: {
+                "\\RR": "\\mathbb{R}"
+              }
+            }]
+          ],
+        },
+        pages: {
+          // 确保为页面添加正确的配置
+          path: 'src/pages',
+          routeBasePath: '/',
+          remarkPlugins: [remarkMath],
+          rehypePlugins: [
+            [rehypeKatex, {
+              strict: false,
+              throwOnError: false,
+              macros: {
+                "\\RR": "\\mathbb{R}"
+              }
+            }]
+          ],
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -56,17 +88,20 @@ module.exports = {
     ],
   ],
   
-  // 可选：自定义字段
   customFields: {
     test: '配置加载测试'
   },
   
-  // 可选：插件配置
-  plugins: [],
+  onBrokenLinks: 'warn',
+  onBrokenMarkdownLinks: 'warn',
   
-  // 可选：脚本和样式
-  scripts: [],
-  stylesheets: [],
+  stylesheets: [
+    {
+      href: 'https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css',
+      type: 'text/css',
+      crossorigin: 'anonymous',
+    },
+  ],
 };
 
 console.log("配置文件已加载！");
