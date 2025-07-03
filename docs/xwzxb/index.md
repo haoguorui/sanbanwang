@@ -42,6 +42,6 @@ sidebar_label: 新闻资讯版
 
 - [S8赛季表彰结束](https://blog.csdn.net/haoguoruipython/article/details/145584373)
 
-- [咸二中第$42$届田径运动会Day$1$结束，我班再创佳绩](https://blog.csdn.net/haoguoruipython/article/details/145559473)
+- [咸二中第$42$届田径运动会Day$1$结束，我班再创佳绩](/xwzxb/at5)
 
-- [S8赛季顺利结束，已全部出分](https://blog.csdn.net/haoguoruipython/article/details/145538592)
+- [S8赛季顺利结束，已全部出分](/xwzxb/at1)

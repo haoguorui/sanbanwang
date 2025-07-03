@@ -18,4 +18,4 @@ sidebar_label: 活动区
 
 - [2025 年春节档最想观看影片调查](https://blog.csdn.net/haoguoruipython/article/details/145647554)（$\colorbox{red}{\color{white}{\texttt{已结束}}}$）
 
-- [国庆假期作业量调查](https://blog.csdn.net/haoguoruipython/article/details/145546093)（$\colorbox{red}{\color{white}{\texttt{已结束}}}$）
+- [国庆假期作业量调查](/hdq/at3)（$\colorbox{red}{\color{white}{\texttt{已结束}}}$）

@@ -36,7 +36,7 @@ sidebar_label: 学术版
 
 - [热烈祝贺神舟五号载人飞船成功发射$21$周年（投稿人：郝国瑞）](https://blog.csdn.net/haoguoruipython/article/details/145588463)
 
-- [神舟十七号载人飞船返回全过程记录（投稿人：郝国瑞）](https://blog.csdn.net/haoguoruipython/article/details/145566968)
+- [神舟十七号载人飞船返回全过程记录（投稿人：郝国瑞）](/xsb/at6)
 
 ------------
 

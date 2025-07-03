@@ -11,6 +11,7 @@ module.exports = {
         id: 'xwzxb/index'
       },
       items: [
+        'xwzxb/at5',
         'xwzxb/at1',
       ]
     },
@@ -24,7 +25,8 @@ module.exports = {
         id: 'gsb/index'
       },
       items: [
-        
+        'gsb/at4',
+        'gsb/at2',
       ]
     },
     {
@@ -37,7 +39,7 @@ module.exports = {
         id: 'xsb/index'
       },
       items: [
-        
+        'xsb/at6',
       ]
     },
     {
@@ -63,7 +65,7 @@ module.exports = {
         id: 'hdq/index'
       },
       items: [
-        
+        'hdq/at3'
       ]
     },
   ]

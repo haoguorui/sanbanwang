@@ -26,6 +26,6 @@ sidebar_label: 公示板
 
 - [S9赛季统计](https://blog.csdn.net/haoguoruipython/article/details/145607457)
 
-- [$2024$年运动会获奖情况统计](https://blog.csdn.net/haoguoruipython/article/details/145556498)
+- [$2024$年运动会获奖情况统计](/gsb/at4)
 
-- [S8赛季统计](https://blog.csdn.net/haoguoruipython/article/details/145538886)
+- [S8赛季统计](/gsb/at2)
