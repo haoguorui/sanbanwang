@@ -78,12 +78,12 @@ layout: HomepageLayout
 
 中考倒计时（初中生涯）进度条（$0.01$ cm相当于 $1$ 天，初始天数为 $1027$ 天，非随时更新，随缘更新）：
 
-$\colorbox{black}{\colorbox{orange}{\color{orange}{}\kern{3.63cm}}\colorbox{white}{\color{white}{}\kern{6.64cm}}\colorbox{white}{\color{white}{}\kern{0.0cm}}}$ $363/1027$（1号）
+$\colorbox{black}{\colorbox{orange}{\color{orange}{}\kern{3.51cm}}\colorbox{white}{\color{white}{}\kern{6.76cm}}\colorbox{white}{\color{white}{}\kern{0.0cm}}}$ $351/1027$（1号）
 $\colorbox{black}{\colorbox{red}{\color{red}{}\kern{2.92cm}}\colorbox{blue}{\color{blue}{}\kern{3.65cm}}\colorbox{green}{\color{green}{}\kern{3.70cm}}}$  （2 号）
 
 注：1 号为真正的进度条，2 号为初一初二初三三色对照条（仅供参考，有时可能对照不上）（初一为绿色，初二为蓝色，初三为红色）
 
-(update on $2025/06/22$)
+(update on $2025/07/04$)
 
 ------------
 

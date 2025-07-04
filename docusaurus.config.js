@@ -32,7 +32,17 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} 三班网. Built with Docusaurus.`,
     },
   },
-  
+  stylesheets: [
+    {
+      href: 'https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css',
+      type: 'text/css',
+      crossorigin: 'anonymous',
+      attributes: {
+        'media': 'screen and (min-width: 320px)',
+        'onerror': "this.remove(); console.error('Katex CSS failed to load')"
+      }
+    }
+  ],
   presets: [
     [
       '@docusaurus/preset-classic',
@@ -47,7 +57,11 @@ module.exports = {
               throwOnError: false,
               macros: {
                 "\\RR": "\\mathbb{R}"
-              }
+              },
+              fleqn: true, // 使用左对齐而非居中
+              maxSize: 10, // 最大缩放限制
+              maxExpand: 50, // 最大扩展限制
+              globalGroup: true
             }]
           ],
         },
@@ -77,7 +91,11 @@ module.exports = {
               throwOnError: false,
               macros: {
                 "\\RR": "\\mathbb{R}"
-              }
+              },
+              fleqn: true, // 使用左对齐而非居中
+              maxSize: 10, // 最大缩放限制
+              maxExpand: 50, // 最大扩展限制
+              globalGroup: true
             }]
           ],
         },
