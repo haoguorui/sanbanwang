@@ -11,7 +11,7 @@ layout: HomepageLayout
 
 （注：本网还在建设中）
 
-提示：[S14、S(-1)、S15 赛季专题讨论帖](hhttps://mp.weixin.qq.com/s/Gdj_CpA_ghRhftykvM0sPQ) 讨论正在进行，欢迎点击蓝字进入讨论！
+提示：[S14、S(-1)、S15 赛季专题讨论帖](https://mp.weixin.qq.com/s/Gdj_CpA_ghRhftykvM0sPQ) 讨论正在进行，欢迎点击蓝字进入讨论！
 
 ------------
 
@@ -93,7 +93,7 @@ $\colorbox{black}{\colorbox{red}{\color{red}{}\kern{2.92cm}}\colorbox{blue}{\col
 
 **警告**：请在发言前仔细阅读 **[《三班网讨论区发言规范》](https://blog.csdn.net/haoguoruipython/article/details/145647925)** 并自觉遵守相关规定，否则后果自负！
 
-- [S14、S(-1)、S15 赛季专题讨论帖](hhttps://mp.weixin.qq.com/s/Gdj_CpA_ghRhftykvM0sPQ)
+- [S14、S(-1)、S15 赛季专题讨论帖](https://mp.weixin.qq.com/s/Gdj_CpA_ghRhftykvM0sPQ)
 
 - [自由讨论帖](https://mp.weixin.qq.com/s/00qU1T69GpBYjZM1y4SHhw)
 
