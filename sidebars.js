@@ -11,6 +11,8 @@ module.exports = {
         id: 'xwzxb/index'
       },
       items: [
+        'xwzxb/at9',
+        'xwzxb/at8',
         'xwzxb/at5',
         'xwzxb/at1',
       ]
@@ -52,7 +54,7 @@ module.exports = {
         id: 'xhb/index'
       },
       items: [
-        
+        'xhb/at7',
       ]
     },
     {
@@ -65,7 +67,7 @@ module.exports = {
         id: 'hdq/index'
       },
       items: [
-        'hdq/at3'
+        'hdq/at3',
       ]
     },
   ]

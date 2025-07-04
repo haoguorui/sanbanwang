@@ -20,12 +20,12 @@ $2024$年$09$月$29$日，咸水沽二中第$42$届田径运动会Day$1$顺利�
 
 下面是本班的合照：
 
-![](https://i-blog.csdnimg.cn/img_convert/6efae90fc02aa593185777438bc6a718.png)
+![](https://cdn.luogu.com.cn/upload/image_hosting/13we0gs9.png)
 
 感谢部分同学家长带来的好东西：
 
-![](https://i-blog.csdnimg.cn/img_convert/81ed55bbae85e981c5d1ddd50bf950c2.png)
+![](https://cdn.luogu.com.cn/upload/image_hosting/igqlzmlf.png)
 
-入场式视频：[去bilibili观看](https://www.bilibili.com/video/BV1Ld4wetEhR/)）
+入场式视频：[去bilibili观看](https://www.bilibili.com/video/BV1Ld4wetEhR/)
 
 具体取得奖项见[此](/gsb/at4)

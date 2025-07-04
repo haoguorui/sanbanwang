@@ -17,7 +17,7 @@ layout: HomepageLayout
 
 本站总访问次数：$1857+$ 上面的阅读量（包含[原站](https://www.luogu.com/paste/6nlb3f0p)）
 
-本站现有文章数：$40$
+本站现有文章数：$42$
 
 ------------
 

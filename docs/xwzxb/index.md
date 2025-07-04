@@ -38,9 +38,9 @@ sidebar_label: 新闻资讯版
 
 - [S9赛季表彰结束](https://blog.csdn.net/haoguoruipython/article/details/145607803)
 
-- [S9赛季考试范围公布](https://blog.csdn.net/haoguoruipython/article/details/145585667)
+- [S9赛季考试范围公布](/xwzxb/at9)
 
-- [S8赛季表彰结束](https://blog.csdn.net/haoguoruipython/article/details/145584373)
+- [S8赛季表彰结束](/xwzxb/at8)
 
 - [咸二中第$42$届田径运动会Day$1$结束，我班再创佳绩](/xwzxb/at5)
 

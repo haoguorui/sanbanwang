@@ -17,7 +17,7 @@ sidebar_label: 闲话版
 
 - [坐忘道——红中（投稿人：匿名投稿）](https://blog.csdn.net/haoguoruipython/article/details/146129338)
 
-- [$2024$年$10$月$04$日天津最早的日出记录（投稿人：郝国瑞）](https://blog.csdn.net/haoguoruipython/article/details/145584103)
+- [$2024$年$10$月$04$日天津最早的日出记录（投稿人：郝国瑞）](/xhb/at7)
 
 
 ------------
