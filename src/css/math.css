@@ -1,0 +1,102 @@
+/* 基础公式容器 */
+.math-container {
+  margin: 0.8em 0;
+  position: relative;
+}
+
+/* 行内公式 */
+.math-inline {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1.4;
+}
+
+/* 块级公式 */
+.math-display {
+  display: block;
+  width: 100%;
+  overflow: visible;
+}
+
+/* 移动端专用样式 */
+.mobile-math {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  padding: 8px 5px 12px 5px;
+  margin: 0 -10px;
+  width: calc(100% + 20px);
+}
+
+/* 桌面端样式 */
+.desktop-math {
+  overflow-x: auto;
+  padding: 5px 0;
+}
+
+/* 公式渲染容器 */
+.katex-render {
+  display: inline-block;
+  position: relative;
+}
+
+/* 移动端公式缩放 */
+@media (max-width: 768px) {
+  .katex {
+    font-size: 1.15em !important;
+    transform: scale(0.96);
+    transform-origin: left center;
+  }
+  
+  .katex-display {
+    transform: scale(0.98);
+    padding: 5px 0 10px 0;
+  }
+  
+  .katex-html {
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  .math-display .katex-display {
+    margin: 0.5em 0;
+  }
+}
+
+/* 加载状态 */
+.math-loading {
+  color: #666;
+  font-style: italic;
+  background: #f9f9f9;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+/* 错误状态 */
+.math-error {
+  color: #d32f2f;
+  background: #ffebee;
+  padding: 3px 8px;
+  border-radius: 4px;
+  border: 1px dashed #d32f2f;
+  font-family: monospace;
+  font-size: 0.95em;
+}
+
+/* 移动端滚动条优化 */
+.katex-render::-webkit-scrollbar {
+  height: 6px;
+}
+
+.katex-render::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+}
+
+/* 防止字体闪烁 */
+@font-face {
+  font-family: 'KaTeX_Main';
+  src: url('https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/fonts/KaTeX_Main-Regular.woff2') format('woff2');
+  font-display: swap;
+}
