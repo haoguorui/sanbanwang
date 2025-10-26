@@ -1,6 +1,6 @@
 // @ts-check
 const remarkMath = require('remark-math');
-const rehypeKatex = require('rehype-katex');
+const rehypeKatex = require('rehype-katex').default; // 修正：使用 .default
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -21,9 +21,6 @@ const config = {
   i18n: {
     defaultLocale: 'zh-Hans',
     locales: ['zh-Hans'],
-    localeConfigs: {
-      'zh-Hans': { label: '简体中文' },
-    },
   },
 
   presets: [
@@ -34,16 +31,55 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           routeBasePath: '/',
           remarkPlugins: [remarkMath],
-          rehypePlugins: [[rehypeKatex, { strict: false }]],
+          rehypePlugins: [
+            [
+              rehypeKatex,
+              {
+                strict: false,
+                throwOnError: false,
+                macros: { '\\RR': '\\mathbb{R}' },
+                fleqn: true,
+                maxSize: 10,
+                maxExpand: 50,
+                globalGroup: true,
+              },
+            ],
+          ],
         },
         blog: {
           showReadingTime: true,
           remarkPlugins: [remarkMath],
-          rehypePlugins: [[rehypeKatex, { strict: false }]],
+          rehypePlugins: [
+            [
+              rehypeKatex,
+              {
+                strict: false,
+                throwOnError: false,
+                macros: { '\\RR': '\\mathbb{R}' },
+                fleqn: true,
+                maxSize: 10,
+                maxExpand: 50,
+                globalGroup: true,
+              },
+            ],
+          ],
         },
         pages: {
           remarkPlugins: [remarkMath],
-          rehypePlugins: [[rehypeKatex, { strict: false }]],
+          rehypePlugins: [
+            [
+              rehypeKatex,
+              {
+                strict: false,
+                throwOnError: false,
+                macros: { '\\RR': '\\mathbb{R}' },
+                fleqn: true,
+                maxSize: 10,
+                maxExpand: 50,
+                globalGroup: true,
+              },
+            ],
+          ],
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
