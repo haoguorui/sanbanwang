@@ -1,8 +1,8 @@
 ---
 title: 欢迎来到三班网
 description: 班级资讯平台
-layout: HomepageLayout
 ---
+
 
 
 # $\LARGE{\color {green} \texttt {欢迎来到三班网！}}$
